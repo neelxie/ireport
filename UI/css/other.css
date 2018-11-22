@@ -1,0 +1,183 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+/* links */
+a{
+    text-decoration: none;
+}
+/* Change the background color */
+@media screen and(min-width:700px){
+    body{
+        background-color: #ff652f;
+    }
+    table{
+        display: none;
+        width: 100%;
+    }
+    /* navbar container */
+    .navbar{
+        overflow: hidden;
+        background-color: #ff652f;
+    }
+    /* navbar links */
+    .nav a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+}
+.cont_ain{
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+    border-radius: 30px;
+    box-shadow: 16px 20px rgb(226, 206, 206);
+    background-color:black;
+    display: grid;
+}
+/* sendIt would be logo*/
+.brand{
+    padding: 0px;
+    background-color: #ff652f;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 70px;
+    display: grid;
+}
+/* navigation bar with links */
+
+.navbar{
+    background-color: #05d395;
+    height: 30px;
+    widows: 100%;
+    display: grid;
+}
+.nav{
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid white;
+}
+.nav_item{
+    display: inline;
+}
+li a{
+    display: inline;
+    padding: 0px 5px 10px 15px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+}
+#greet{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.active{
+    background-color: #ff652f;
+}
+li a:hover{
+    background-color: #ff652f;
+    color: white;
+}
+.wrapper{
+    background-color: #05d395;
+    width: 820px;
+    height: 580px;
+    margin: 0px auto;
+    border-radius: 0px 0px 20px 20px;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color:black;
+    overflow: auto;
+}
+.delivered{
+    overflow-x: auto;
+}
+/* Tables and related elements */
+table{
+    border-collapse: collapse;
+    width: 80%;
+    top:30px;
+    margin: 0 auto;
+}
+td, th{
+    padding: 5px;
+    border: 1px solid white;
+}
+.sales{
+    height: 203px;
+    padding: 10px 1px;
+    margin-top: 0px;
+}
+.first_table{
+    margin: 30px 88px;
+}
+.table_title{
+    margin-left: -205px;
+}
+.table-footer{
+    padding-top: 8px;
+}
+.col{
+    background-color: #ff652f;
+    color: antiquewhite;
+}
+/* button */
+button{
+    border-radius: 5px 5px 6px 5px;
+    color: black;
+    background-color: azure;
+}
+button:hover{
+    color: white;
+    background-color: #ff652f;
+}
+.make_order{
+    padding-top: 30px;
+}
+.make_order input[type="text"],
+.make_order input[type="address"]{
+    margin: 4px 2px;
+    padding: 8px 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: 2px;
+    font-size: 20px;
+    height: 40%;
+    width: 30%;
+    border-radius: 13px;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+    box-sizing: border-box;
+    background-color: rgb(241, 250, 252);
+}
+.make_order input[type="text"]:hover,
+.make_order input[type="address"]:hover{
+    width: 40%;
+}
+.con_order{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.confirm_order{
+    line-height: 3.0em;
+    font-weight: bolder;
+}
+.admin_button{
+    padding-top: 20px;
+}
+/* page footer */
+.footer{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
