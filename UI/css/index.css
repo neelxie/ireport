@@ -1,0 +1,110 @@
+/* main div of the index page. */
+.wrapper{
+    background-image: url(../img/orange.jpg);
+    background-position: center;
+    height: 570px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 100px #270920;
+    margin-top: 20px;
+    display: block;
+}
+
+/* the left side of the index page. */
+.brand{
+    height: 90%;
+    width: 45%;
+    margin: 20px;
+    /* top: 20px; */
+    float: left;
+    border-radius: 5px;
+    background: rgb(0, 0, 0, .5)
+}
+
+/* right side of the index page with the login form. */
+.sign{
+    height: 90%;
+    width: 45%;
+    margin: 20px;
+    /* top: 20px; */
+    float: right;
+    border-radius: 5px;
+    background: rgb(0, 0, 0, .3)
+}
+/* all titles. */
+h2, h3 {
+    text-align: center;
+    color: white;
+    
+    font-family: cursive;
+    font-size: 30px;
+}
+
+/* paragraph on the index page. */
+p{
+    text-align: center;
+    color: white;
+    padding: 8px;
+    font-family: cursive;
+    font-size: 20px;
+}
+form{
+    margin: auto;
+}
+
+#myform{
+    text-align: center;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-form input[type="email"],
+.input-form input[type="password"]{
+    margin: 4px 2px;
+    padding: 8px 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: 2px;
+    font-size: 20px;
+    height: 40%;
+    width: 55%;
+    border-radius: 17px;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+    box-sizing: border-box;
+    background-color: rgb(241, 250, 252);
+}
+.input-form input[type="password"]:hover{
+    width: 65%;
+}
+.input-form input[type="email"]:hover{
+    width: 65%;
+}
+
+.input-form input[type="submit"]{
+    background: #c0c0c0;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 55%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 0, 15);
+}
+.input-form input[type="submit"]:hover{
+    background-color: #ff652f;
+    color: white;
+}
+/* links */
+a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 29px 0px 25px;
+    color: white;
+}
+/* change link text color */ 
+a:hover{
+    color: rgb(16, 17, 16);
+}
