@@ -1,49 +1,3 @@
-.wrapper{
-    background-image: url(../img/orange.jpg);
-    background-position: center;
-    height: 590px;
-    width: 1000px;
-    margin: auto;
-    border-radius: 5px;
-    box-shadow: 0 0 100px #37fc51;
-    margin-top: 20px;
-    display: block;
-}
-.brand{
-    height: 90%;
-    width: 45%;
-    margin: 20px;
-    /* top: 20px; */
-    float: left;
-    border-radius: 5px;
-    background: rgb(0, 0, 0, .5)
-}
-h2 h3 {
-    text-align: center;
-    color: white;
-    padding: 5px;
-    font-family: cursive;
-    font-size: 30px;
-}
-.brand p{
-    text-align: center;
-    color: white;
-    padding: 8px;
-    font-family: cursive;
-    font-size: 20px;
-}
-form{
-    margin: auto;
-}
-.sign{
-    height: 90%;
-    width: 45%;
-    margin: 20px;
-    /* top: 20px; */
-    float: right;
-    border-radius: 5px;
-    background: rgb(0, 0, 0, .3)
-}
 .logo{
     display: table-row;
     margin-top: 0;
@@ -58,6 +12,7 @@ form{
     border-top-right-radius: 26px;
     border-top-left-radius: 25px;
 }
+
 .container{
     margin:0 auto;
     margin-top: 30px;
@@ -65,10 +20,11 @@ form{
     width: 350px;
     height: 100%;
     border-radius: 30px;
-    box-shadow: 0 0 100px rgb(252, 7, 211);
+    box-shadow: 0 0 100px rgb(10, 10, 10);
     background-color:black;
     display: grid;
 }
+
 /* login form */
 .input{
     background-color: #93dde2;
@@ -79,6 +35,7 @@ form{
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
 }
+
 /* register form */
 .registerForm{
     background-color: #05d395;
@@ -91,6 +48,7 @@ form{
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
 }
+
 #myform{
     text-align: center;
     margin: auto;

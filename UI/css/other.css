@@ -35,11 +35,10 @@ a{
     margin:0px;
     padding: 0px;
     border-radius: 30px;
-    box-shadow: 16px 20px rgb(226, 206, 206);
     background-color:black;
     display: grid;
 }
-/* sendIt would be logo*/
+/* ireporter would be logo*/
 .brand{
     padding: 0px;
     background-color: #ff652f;
@@ -97,7 +96,7 @@ li a:hover{
     text-align: center;
     color:black;
     overflow: auto;
-    box-shadow: 0 0 50px #e2f8f1;
+    box-shadow: 0 0 50px #111111;
 }
 .delivered{
     overflow-x: auto;
