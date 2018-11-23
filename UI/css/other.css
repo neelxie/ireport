@@ -52,7 +52,7 @@ a{
 /* navigation bar with links */
 
 .navbar{
-    background-color: #05d395;
+    background-color: grey;
     height: 30px;
     widows: 100%;
     display: grid;
@@ -87,9 +87,9 @@ li a:hover{
     color: white;
 }
 .wrapper{
-    background-color: #05d395;
+    background-color: #e2f8f1;
     width: 820px;
-    height: 580px;
+    height: 500px;
     margin: 0px auto;
     border-radius: 0px 0px 20px 20px;
     display: block;
@@ -97,6 +97,7 @@ li a:hover{
     text-align: center;
     color:black;
     overflow: auto;
+    box-shadow: 0 0 50px #e2f8f1;
 }
 .delivered{
     overflow-x: auto;
@@ -110,7 +111,7 @@ table{
 }
 td, th{
     padding: 5px;
-    border: 1px solid white;
+    border: 1px solid #ff652f;
 }
 .sales{
     height: 203px;
