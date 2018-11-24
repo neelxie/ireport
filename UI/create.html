@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="SEKIDDE DERRICK">
+    <title>iReporter | User</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/other.css" />
+</head>
+
+<body>
+    <div class="con_tain">
+        <div class="brand">
+            <h1>iReporter</h1>
+        </div>
+        <div class="navbar">
+            <ul class="nav">
+                <li class="nav_item"><a href="../index.html">Logout</a></li>
+                <li class="nav_item"><a href="#">Make an iReport</a></li>
+                <li class="nav_item" id="greet"><a href="user.html"> Your Profile </a></li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            
+            <form class="make_order" action="user.html">
+            <h3> Create an iReport.</h3>
+                <p class="con_order">Choose iReport type.</p>
+                <select name="Record Type">
+                    <option value="red_flag">Red Flag</option>
+                    <option value="intervention">Intervention</option>
+                </select>
+                <p>
+                <input type="text" class="record_title" placeholder="Enter Record Title">
+                </p>
+                <p class="con_order">
+                <textarea name="message" class="record_details"placeholder="Enter Details of your iReport."></textarea></p>
+                <p> <input type="file" class="confirm_order" name="media" accept="video/image/*" placeholder="Upload image or video."></P>
+                <p><input type="text" placeholder="Add Location coordinates"></P>
+                <p><button class="confirm_order">Create iReport</button></p>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy 2018 iReporter. <small>All rights Reserved.</small></p>
+    </footer>
+</body>

@@ -1,9 +1,10 @@
 /* main div of the index page. */
 .wrapper{
-    background-image: url(../img/orange.jpg);
-    background-position: center;
+    background-image: url(../img/people.jpg);
+    background-size: cover;
     height: 570px;
     width: 1000px;
+    overflow-x: auto;
     margin: auto;
     border-radius: 5px;
     box-shadow: 0 0 100px #270920;

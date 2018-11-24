@@ -43,7 +43,7 @@
     padding: 25px;
     padding-top: 10px;
     padding-bottom: 40px;
-    height: 320px;
+    height: 380px;
     vertical-align: middle;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -56,6 +56,7 @@
 }
 
 .input-form input[type="text"],
+.input-form input[type="tel"],
 .input-form input[type="email"],
 .input-form input[type="password"]{
     margin: 4px 2px;
@@ -79,6 +80,9 @@
     width: 85%;
 }
 .input-form input[type="text"]:hover{
+    width: 85%;
+}
+.input-form input[type="tel"]:hover{
     width: 85%;
 }
 .input-form input[type="submit"]{
