@@ -22,7 +22,7 @@
         <div class="sign">
             <h3>Have an Account?</h3>
             <h3>Do Log In Here.</h3>
-            <form class="input-form" id="myform">
+            <form class="input-form" id="myform" onsubmit="return checkEmail();">
                 <p><input type="email" id="email" placeholder="Enter Email" required/></p>
                 <p><input type="password" id="password" placeholder="Enter Password" required/></p>
                 <p><input type="submit" class="btn" value="Sign In"></p>
@@ -33,4 +33,5 @@
         </div>
     </div>
 </body>
+<script src="./js/script.js"></script>
 </html>

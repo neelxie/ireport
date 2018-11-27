@@ -46,5 +46,5 @@ https://neelxie.github.io/ireport/UI/
 
 # Credits
  * I thank GOD, to whom everything plays out.
- * I credit Oleg Laptev on Unsplash for the index background photo.
+ * I credit Raw Pixel on Unsplash for the index background photo.
  * I would like to thank Andela for the opportunity to change the world.

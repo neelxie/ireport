@@ -2,33 +2,30 @@
 .wrapper{
     background-image: url(../img/people.jpg);
     background-size: cover;
-    height: 570px;
-    width: 1000px;
+    height: 100%;
+    width: 82%;
     overflow-x: auto;
-    margin: auto;
+    margin: 40px auto;
     border-radius: 5px;
-    box-shadow: 0 0 100px #270920;
-    margin-top: 20px;
+    box-shadow: 0 0 50px #270920;
     display: block;
 }
 
 /* the left side of the index page. */
 .brand{
-    height: 90%;
-    width: 45%;
-    margin: 20px;
-    /* top: 20px; */
+    height:100%;
+    width: 50%;
     float: left;
     border-radius: 5px;
+    margin-top: 4%;
     background: rgb(0, 0, 0, .5)
 }
 
 /* right side of the index page with the login form. */
 .sign{
-    height: 90%;
-    width: 45%;
-    margin: 20px;
-    /* top: 20px; */
+    height: 100%;
+    width: 50%;
+    /* margin: 20px; */
     float: right;
     border-radius: 5px;
     background: rgb(0, 0, 0, .3)
@@ -37,7 +34,6 @@
 h2, h3 {
     text-align: center;
     color: white;
-    
     font-family: cursive;
     font-size: 30px;
 }
@@ -58,6 +54,7 @@ form{
     text-align: center;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
 }
 
 .input-form input[type="email"],
@@ -102,7 +99,7 @@ a{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    margin: 29px 0px 25px;
+    /* margin: 29px 0px 25px; */
     color: white;
 }
 /* change link text color */ 
