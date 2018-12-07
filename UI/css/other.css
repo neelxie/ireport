@@ -45,13 +45,13 @@ a{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 20%;
-    /* display: grid; */
+    display: grid;
 }
 /* navigation bar with links */
 
 .navbar{
     background-color: grey;
-    height: 10vh;
+    height: 6vh;
     margin: auto;
     text-align: center;
     /* widows: 100%; */
@@ -61,11 +61,10 @@ a{
 .navbar ul li{
     margin-top: 10vh;
 }
-.wrapper{
+.overall{
     background-color: #e2f8f1;
-    /* width: 75%; */
-    height: 65vh;
-    width: 70vw;
+    height: 68vh;
+    width: 90vw;
     margin: 0px auto;
     border-radius: 0px 0px 20px 20px;
     /* display: block; */
@@ -81,7 +80,7 @@ a{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 .nav_item{
     display: inline;
@@ -93,11 +92,6 @@ li a{
     border-radius: 4px;
     color: white;
 }
-/* #greet{
-    text-align: center;
-    color: white;
-    font-weight: bold;
-} */
 li a:hover{
     background-color: #ff652f;
     color: white;
@@ -105,33 +99,6 @@ li a:hover{
 
     /* overflow-x: auto; */
 
-/* Tables and related elements */
-table{
-    border-collapse: collapse;
-    width: 90%;
-    /* height: 100%; */
-    height: 50vh;
-    top: 30px;
-    margin: 0 auto;
-}
-td, th{
-    padding: 5px;
-    border: 1px solid #ff652f;
-}
-.sales{
-    /* height: 203px; */
-    padding: 10px 1px;
-    margin-top: 0px;
-}
-.first_table{
-    margin: 30px 88px;
-}
-.table_title{
-    margin-left: -205px;
-}
-.table-footer{
-    padding-top: 8px;
-}
 .col{
     background-color: #ff652f;
     color: antiquewhite;
@@ -170,4 +137,157 @@ textarea:hover{
     text-align: center;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
+}
+@margin: 15px;
+@text-width: 160px;
+@num-width: 160px;
+
+/*
+ * Basic styles, good for a large display. Everything fits in
+ * one row, no wrapping. All text based cells grow equally.
+ */
+
+.table-row {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-wrap: no-wrap;
+  -webkit-flex-wrap: no-wrap;
+  width: 95%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.wrapper {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-grow: 0;
+  -webkit-flex-grow: 0;
+}
+.text-4,
+.text-2,
+.text {
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+}
+.num-4,
+.num-2,
+.num {
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+}
+.text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 20px;
+}
+.num {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 20px;
+}
+.text {
+  width: 50%;
+}
+.num {
+  width: 50%;
+}
+/*
+ * Media queries: optimize for different screen widths.
+ */
+@media all and (max-width: 1100px) {
+  .text-4,
+  .num-4 {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+  }
+  .text-4 div,
+  .num-4 div {
+    flex-grow: 0;
+    -webkit-flex-grow: 0;
+    width: 100%;
+  }
+  .text-4 {
+    width: 100%;
+  }
+  .num-4 {
+    width: 100%;
+  }
+    .num {
+    text-align: right;
+  }
+
+}
+@media all and (max-width: 580px) {
+  .text-4,
+  .num-4 {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+  }
+  .text-4 div,
+  .num-4 div {
+    flex-grow: 0;
+    -webkit-flex-grow: 0;
+    width: 100%;
+  }
+  .text-4 {
+    width: 100%;
+  }
+  .num-4 {
+    width: 100%;
+  }
+    .num {
+    text-align: right;
+  }
+
+}
+@media all and (max-width: 320px) {
+  .table-row {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+  }
+  .table-row div {
+    flex-grow: 0;
+    -webkit-flex-grow: 0;
+    width: 100%;
+  }
+  .num {
+    text-align: left;
+  }
+}
+
+/*
+ * General good-look styles, not mandatory.
+ */
+body {
+  font-size: 18px;
+}
+
+.table-row {
+  border-bottom: 2px solid #000;
+  border-collapse: collapse;
+  padding-top: 5px;
+}
+
+.table-row.header {
+  background-color: #ff652f;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+/* Some borders to show the behaviour. Uncomment to see it in action */
+
+.text-2, .num-2 {
+  border: 1px solid #ff652f;
+  padding: 2px;
+  margin: 2px;
+}
+
+.text-4, .num-4 {
+  border: 1px #ddd;
+  margin: 2px;
 }
