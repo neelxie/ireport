@@ -2,6 +2,9 @@ html,body{
     margin: 0px;
     padding: 0px;
 }
+body {
+    font-size: 18px;
+  }
 /* links */
 a{
     text-decoration: none;
@@ -50,12 +53,10 @@ a{
 /* navigation bar with links */
 
 .navbar{
-    background-color: grey;
+    background-color: green;
     height: 6vh;
     margin: auto;
     text-align: center;
-    /* widows: 100%; */
-    /* display: grid; */
 }
 
 .navbar ul li{
@@ -64,7 +65,7 @@ a{
 .overall{
     background-color: #e2f8f1;
     height: 68vh;
-    width: 90vw;
+    width: 93vw;
     margin: 0px auto;
     border-radius: 0px 0px 20px 20px;
     /* display: block; */
@@ -120,10 +121,13 @@ select {
     border-radius: 20px;
     background-color: #f1f1f1;
 }
-textarea{
+input[type="text"], textarea{
     border-radius: 20px;
     padding: 5px;
     width: 29%;
+    text-align: center;
+    font: 1em sans-serif;
+    color: #000;
 }
 input[type="file"]{
     width: 29%;
@@ -131,21 +135,10 @@ input[type="file"]{
 textarea:hover{
     width: 35%;
 }
-/* page footer */
-.footer{
-    /* height: 0.5%; */
-    text-align: center;
-    font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 @margin: 15px;
 @text-width: 160px;
 @num-width: 160px;
-
-/*
- * Basic styles, good for a large display. Everything fits in
- * one row, no wrapping. All text based cells grow equally.
- */
 
 .table-row {
   display: flex;
@@ -196,9 +189,8 @@ textarea:hover{
 .num {
   width: 50%;
 }
-/*
- * Media queries: optimize for different screen widths.
- */
+/* Media queries have to optimize for different screen widths. */
+
 @media all and (max-width: 1100px) {
   .text-4,
   .num-4 {
@@ -260,12 +252,7 @@ textarea:hover{
   }
 }
 
-/*
- * General good-look styles, not mandatory.
- */
-body {
-  font-size: 18px;
-}
+/*Have border lines around the attributes.*/
 
 .table-row {
   border-bottom: 2px solid #000;
@@ -290,4 +277,12 @@ body {
 .text-4, .num-4 {
   border: 1px #ddd;
   margin: 2px;
+}
+
+/* page footer */
+.footer{
+    /* height: 0.5%; */
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
 }
