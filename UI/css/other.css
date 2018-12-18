@@ -8,6 +8,7 @@ body {
 /* links */
 a{
     text-decoration: none;
+    color: green;
 }
 /* Change the background color */
 @media screen and(min-width:700px){
@@ -53,7 +54,7 @@ a{
 /* navigation bar with links */
 
 .navbar{
-    background-color: green;
+    background-color: #47cf73;
     height: 6vh;
     margin: auto;
     text-align: center;
@@ -80,7 +81,8 @@ a{
     float: left;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
+    padding-left: 5%;
     /* border: 1px solid white; */
 }
 .nav_item{
@@ -88,14 +90,14 @@ a{
 }
 li a{
     display: inline;
-    padding: 0px 5px 10px 15px;
+    padding: 5px;
     text-align: center;
     border-radius: 4px;
     color: white;
 }
 li a:hover{
     background-color: #ff652f;
-    color: white;
+    color: black;
 }
 
     /* overflow-x: auto; */
@@ -107,27 +109,44 @@ li a:hover{
 /* button */
 button{
     border-radius: 5px 5px 6px 5px;
-    color: black;
-    background-color: azure;
+    color: white;
+    font: 1em sans-serif;
+    width: 25%;
+    height: 30px;
+    background-color: #ff652f;
 }
 button:hover{
     color: white;
-    background-color: #ff652f;
+    background-color: #47cf73;
 }
-select {
+.select_create{
     width: 29%;
     padding: 10px 20px;
     color: black;
     border-radius: 20px;
+    border: 1px solid #47cf73;
     background-color: #f1f1f1;
+}
+select{
+  color: #000;
+  background-color: #f1f1f1;
+  border-radius: 1px;
+  border: 1px solid #47cf73;
+}
+select:focus{
+  color: white;
+  background-color: green;
+  border-radius: 1px;
 }
 input[type="text"], textarea{
     border-radius: 20px;
     padding: 5px;
     width: 29%;
-    text-align: center;
     font: 1em sans-serif;
+    box-sizing: border-box;
     color: #000;
+    resize: none;
+    border: 1px solid #47cf73;
 }
 input[type="file"]{
     width: 29%;
@@ -135,10 +154,6 @@ input[type="file"]{
 textarea:hover{
     width: 35%;
 }
-
-@margin: 15px;
-@text-width: 160px;
-@num-width: 160px;
 
 .table-row {
   display: flex;
@@ -184,10 +199,11 @@ textarea:hover{
   padding-right: 20px;
 }
 .text {
-  width: 50%;
+  width: 120px;
 }
 .num {
-  width: 50%;
+  width: 120px;
+  text-align: left;
 }
 /* Media queries have to optimize for different screen widths. */
 
@@ -266,7 +282,7 @@ textarea:hover{
   padding-top: 8px;
   padding-bottom: 8px;
 }
-/* Some borders to show the behaviour. Uncomment to see it in action */
+/* borders to make stuff pop. */
 
 .text-2, .num-2 {
   border: 1px solid #ff652f;
@@ -275,8 +291,44 @@ textarea:hover{
 }
 
 .text-4, .num-4 {
-  border: 1px #ddd;
+  border: 1px #47cf73;
   margin: 2px;
+}
+/* incident page */
+.top_one{
+  width: 50%;
+  height: 50%;
+  float: left;
+  /* background-color: aqua; */
+}
+.top_two{
+  width: 50%;
+  height: 50%;
+  float: right;
+  /* padding: 5px; */
+  /* background-color: lawngreen; */
+}
+.top_two p{
+  padding: 5px;
+}
+.bottom_one{
+  width: 100%;
+  height: 50%;
+  /* background-color: aqua; */
+}
+/* .title{
+  color: white;
+  background-color: #ff652f;
+} */
+img{
+  height: 100px;
+  width: 150px;
+  margin: 1px;
+  border: 1px solid rgb(250, 4, 4);
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  float: left;
 }
 
 /* page footer */

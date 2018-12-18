@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="SEKIDDE DERRICK">
-    <title>iReporter | User</title>
+    <title>iReporter | Create </title>
     <link rel="stylesheet" type="text/css" media="screen" href="./css/other.css" />
 </head>
 
@@ -16,16 +16,16 @@
         </div>
         <div class="navbar">
             <ul class="nav">
-                <li class="nav_item"><a href="../index.html">Logout</a></li>
+                <li class="nav_item"><a href="index.html">Logout</a></li>
                 <li class="nav_item"><a href="#">Make an iReport</a></li>
                 <li class="nav_item" id="greet"><a href="user.html"> Your Profile </a></li>
             </ul>
         </div>
         <div class="overall">
             
-            <form class="make_order" action="user.html">
+            <form class="make_order" action="user.html" enctype="multipart/form-data">
             <h3> Create an iReport.</h3>
-                <select name="Record Type">
+                <select name="Record Type" class="select_create">
                     <option value="red_flag">Red Flag</option>
                     <option value="intervention">Intervention</option>
                 </select>
@@ -34,7 +34,7 @@
                 </p>
                 <p class="con_order">
                 <textarea name="message" class="record_details"placeholder="Enter Details of your iReport."></textarea></p>
-                <p> <input type="file" class="confirm_order" name="media" accept="video/image/*" placeholder="Upload image or video."></P>
+                <p> <input type="file" class="confirm_order" name="file[]" accept="video/image/*" placeholder="Upload image or video."></P>
                 <p><input type="text" placeholder="Add Location coordinates"></P>
                 <p><button class="confirm_order">Create iReport</button></p>
             </form>
