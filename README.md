@@ -2,7 +2,7 @@
 Corruption is a huge bane to Africa’s development. African countries must develop novel and localised solutions that will curb this menace, hence the birth of iReporter. iReporter enables any/every citizen to bring any form of corruption to the notice of appropriate authorities and the general public. Users can also report on things that needs government intervention
 
 # Application Demo 
-https://neelxie.github.io/ireport/UI/
+Click [here](https://neelxie.github.io/ireport/UI/)
 
 <b>This site has been built with</b>
 * HTML, CSS and JAVASCRIPT
