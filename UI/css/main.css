@@ -45,8 +45,15 @@ p{
     font-family: cursive;
     font-size: 20px;
 }
-a{
-    font-size: 20px;
+.messag p{
+    text-align: center;
+    color: white;
+    /* padding: 8px; */
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.messag a{
+    font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     /* margin: 29px 0px 25px; */
@@ -55,7 +62,7 @@ a{
 /* change link text color */ 
 a:hover{
     /* color: rgb(16, 17, 16); */
-    color: #47cf73;
+    color: #ff652f;
 }
 
 
@@ -79,7 +86,7 @@ a:hover{
 }
 /* login form */
 .input{
-    background-color: #47cf73;
+    background-color: #001620;
     margin-top: 1px;
     padding: 25px;
     height: 280px;
@@ -90,12 +97,12 @@ a:hover{
 
 /* register form */
 .registerForm{
-    background-color: #47cf73;
+    background-color: #001620;
     margin-top: 0px;
     padding: 25px;
     padding-top: 10px;
-    padding-bottom: 40px;
-    height: 380px;
+    padding-bottom: 80px;
+    height: 390px;
     vertical-align: middle;
     border-bottom-right-radius: 25px;
 }
@@ -152,7 +159,7 @@ a:hover{
 }
 /* links */
 .input-form a{
-    color: whitesmoke;
+    color: blue;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -160,7 +167,7 @@ a:hover{
 }
 /* change text color */ 
 .input-form a:hover{
-    color: rgb(16, 17, 16);
+    color: white;
 }
 /* footer */
 .footer{

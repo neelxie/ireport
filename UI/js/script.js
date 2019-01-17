@@ -12,3 +12,22 @@ function checkEmail(){
     }
     return false;
 }
+
+function deleteIncident(){
+
+    var txt;
+    if (confirm("Do you want to delete incident?")) {
+        txt = "";
+    } else {
+        txt = "";
+    }
+    document.getElementById("mydelet").innerHTML = txt;
+}
+
+function editIncident(){
+    var incident = prompt("Please edit incident", "This is dummy text but do read aheard.Global fund global");
+    if (incident != null) {
+        document.getElementById("demo").innerHTML =
+        "Incident changed to " + incident + "!";
+    }
+}

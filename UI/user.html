@@ -23,7 +23,29 @@
         </div>
         <div class="overall">
             <div class="delivered">
-                <h2>All Records</h2>
+                <div class="boom">
+                    <div>
+                        <a href="#" class="incidents">
+                        <span>DRAFT</span>
+                        <span class="badge">1</span></a>
+                    </div>
+                    <div>
+                        <a href="#" class="incidents">
+                        <span>INVESTIGATION</span>
+                        <span class="badge">5</span></a>
+                    </div>
+                    <div>
+                        <a href="#" class="incidents">
+                        <span>RESOLVED</span>
+                        <span class="badge">3</span></a>
+                    </div>
+                    <div>
+                        <a href="#" class="incidents">
+                        <span>REJECTED</span>
+                        <span class="badge">7</span></a>
+                    </div>
+                </div>
+                <h3>These are your incident Records.</h3>
                 <div class="container-fluid" style="margin-top: 10px">
 
                     <div class="table-row header">
@@ -41,6 +63,9 @@
                             <div class="wrapper my_next">
                                 <div class="exa_ct">Status</div>
                                 <div class="exa_ct">Change</div>
+                            </div>
+                            <div class="wrapper my_next">
+                                <div class="exa_ct">Delete</div>
                             </div>
                         </div>
                     </div>
@@ -61,6 +86,9 @@
                                 <div class="exa_ct">Resolved</div>
                                 <div class="exa_ct">Resolved</div>
                             </div>
+                            <div class="wrapper my_next">
+                                <div class="exa_ct">--</div>
+                            </div>
                         </div>
                     </div>
 
@@ -79,6 +107,9 @@
                             <div class="wrapper my_next">
                                 <div class="exa_ct">Rejected</div>
                                 <div class="exa_ct">Rejected</div>
+                            </div>
+                            <div class="wrapper my_next">
+                                <div class="exa_ct">--</div>
                             </div>
                         </div>
                     </div>
@@ -99,6 +130,11 @@
                                 <div class="exa_ct">Draft</div>
                                 <div class="exa_ct">Draft</div>
                             </div>
+                            <div class="wrapper my_next">
+                                <div class="exa_ct">
+                                    <button onclick="deleteIncident()">Delete</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="table-row">
@@ -117,6 +153,9 @@
                                 <div class="exa_ct">Rejected</div>
                                 <div class="exa_ct">Rejected</div>
                             </div>
+                            <div class="wrapper my_next">
+                                <div class="exa_ct"> --</div>
+                            </div>
                         </div>
                     </div>
   
@@ -128,5 +167,5 @@
         <p>&copy 2019 iReporter. <small>All rights Reserved.</small></p>
     </footer>
 </body>
-
+<script src="./js/script.js"></script>
 </html>
