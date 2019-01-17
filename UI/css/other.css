@@ -45,10 +45,11 @@ a{
 /* navigation bar with links */
 
 .navbar{
-    background-color: #47cf73;
+    background-color: #000;
     height: 6vh;
     margin: auto;
     text-align: center;
+    color: #e2f8f1;
 }
 
 .navbar ul li{
@@ -66,7 +67,7 @@ a{
     /* padding: 5px; */
     /* margin-top: 55px; */
     text-align: center;
-    color:black;
+    color:white;;
     overflow: auto;
     box-shadow: 0 0 50px #111111;
 }
@@ -116,10 +117,19 @@ button:hover{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-top: 30px;
+  padding-top: 25px;
   justify-content: space-evenly;
   
 }
+.overall .boom .incidents{
+  background-color: #ff652f;
+}
+.overall,
+.boom,
+.incidents:hover{
+    background-color: #001628;
+}
+/* .boom button, */
 .incidents{
   background-color: #47cf73;
   color: #e2f8f1;
@@ -298,7 +308,7 @@ textarea:hover{
 /*Have border lines around the attributes.*/
 
 .table-row {
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid white;;
   border-collapse: collapse;
   padding-top: 5px;
 }
@@ -332,7 +342,8 @@ textarea:hover{
 .one_of_one{
   
   flex: 2;
-  background-color: #47cf73;
+  background-color: #001628;
+  color: #e2f8f1;
   /* padding: 35px; */
 }
 
