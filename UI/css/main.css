@@ -8,7 +8,6 @@
     padding: 0;
     width: 90%;
     height: 100%;
-    /* background-color: #47cf73; */
     border-radius: 30px;
     box-shadow: 0 0 100px rgb(12, 12, 12);
     /* background-color: #47cf73; */
@@ -56,12 +55,10 @@ p{
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    /* margin: 29px 0px 25px; */
     color: white;
 }
 /* change link text color */ 
 a:hover{
-    /* color: rgb(16, 17, 16); */
     color: #ff652f;
 }
 

@@ -62,10 +62,6 @@ a{
     margin: 0px auto;
     border-radius: 0px 0px 20px 20px;
     display: block;
-    /* flex-direction: row; */
-    /* justify-content: space-around; */
-    /* padding: 5px; */
-    /* margin-top: 55px; */
     text-align: center;
     color:white;;
     overflow: auto;
@@ -353,9 +349,6 @@ textarea:hover{
   /* padding: 10px; */
 }
 .media_box{
-  /* display: -ms-flexibox; */
-
-  /* -ms-flex-wrap: wrap; */
   padding: 0 5px;
 }
 
